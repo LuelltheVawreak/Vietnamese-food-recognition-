@@ -1,6 +1,6 @@
 # Upload kaggle.json
 from google.colab import files
-files.upload()  # Chọn tệp kaggle.json từ máy bạn
+files.upload()  # choose kaggle.json file from yours computer.
 
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
