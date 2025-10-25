@@ -1,3 +1,17 @@
 access and down load this link
 
 https://www.kaggle.com/quandang/vietnamese-foods
+
+
+'''bash 
+|-- data/
+|   |-- test_images/ (has all images for prediction)(**NOTE** : They are the same as the validation set images)
+|   |-- train/
+|   |   |-- images (has all the images for training)
+|   |   |__ annotation.json : Annotation of the data in MS COCO format
+|   |   |__ annotation-small.json : Smaller version of the previous dataset
+|   |-- val/
+|   |   |-- images (has all the images for training)
+|   |   |__ annotation.json : Annotation of the data in MS COCO format
+|   |   |__ annotation-small.json : Smaller version of the previous dataset
+'''
