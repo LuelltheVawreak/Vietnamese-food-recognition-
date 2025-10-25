@@ -14,5 +14,4 @@ so that you will receive direct structure like this
 
 And the dataset include 30 vietnamese traditional dishes. 
 
-
-
+In this prj we will use this dataset directly.
