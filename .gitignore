@@ -1,0 +1,23 @@
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & outputs
+*.pt
+runs/
+results/
+weights/
+dataset_raw/
+data/
+*.zip
+
+# System
+.DS_Store
+.env
