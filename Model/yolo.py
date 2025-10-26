@@ -11,9 +11,10 @@ model = YOLO('yolov8n-cls.pt')
 
 model.train(
     data='dataset_raw/Images/Train',  
-    epochs=15,
-    imgsz=112,
-    batch=64,
+    imgsz=224,
+    epochs=25,
+    batch=32,
+    augment=True,
     name='vietnamese_food_yolov8'
 )
 
