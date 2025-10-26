@@ -8,5 +8,5 @@ This project use Deep Learning to classify and recognize food images, support re
 ```
 Base model: YOLOv8n-cls (Ultralytics)
 Input size: 224x224
-Dataset: [30vn fooods](https://www.kaggle.com/datasets/quandang/vietnamese-foods)
+Dataset: (30vn fooods)[https://www.kaggle.com/datasets/quandang/vietnamese-foods]
 ```
