@@ -20,26 +20,26 @@ Classes: 30 Vietnamese dishes
 | Top-5 Accuracy | 96.3% |
 | F1-score | 0.85 |
 
-# Installation
+### Installation
 ```
 git clone https://github.com/<yourname>/vietnamese-food-recognition.git
 cd vietnamese-food-recognition
 pip install -r requirements.txt
 ```
 
-# Run Training
+### Run Training
 
 ```
 python model/yolo.py
 ```
 
-# Evaluate
+### Evaluate
 
 ```
 python model/eval.py
 ```
 
-# Gradio
+### Gradio
 
 ```
 python model/grad.py
