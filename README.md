@@ -4,7 +4,7 @@ Vietnamese foods recognition  with YOLOv8n-cls finetuned on Vietnamese Foods dat
 
 This project use Deep Learning to classify and recognize food images, support related apps, webs deploy auto recommendation about diet, portion, dishes or study computer vision.
 
-# Model & Dataset
+### Model & Dataset
 
 Base model: YOLOv8n-cls (Ultralytics)
 
