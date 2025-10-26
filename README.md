@@ -10,7 +10,7 @@ Base model: YOLOv8n-cls (Ultralytics)
 
 Input size: 224x224
 
-Dataset: [!30VN food](https://www.kaggle.com/datasets/quandang/vietnamese-foods)
+Dataset: [30VN food](https://www.kaggle.com/datasets/quandang/vietnamese-foods)
 
 Classes: 30 Vietnamese dishes
 ### Results
