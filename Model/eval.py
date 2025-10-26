@@ -1,5 +1,21 @@
 import matplotlib.pyplot as plt
 from pathlib import Path
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+
+
+cm = confusion_matrix(y_true, y_pred)
+plt.figure(figsize=(12,10))
+sns.heatmap(cm, cmap='Blues')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.title('Confusion Matrix')
+plt.tight_layout()
+plt.savefig('results/confusion_matrix.png', dpi=200)
+plt.show()
+
+
+
 
 #display metric
 print("\n=== Evaluation Metrics ===")
