@@ -1,6 +1,6 @@
 # Vietnamese-food-recognition-
 
-Vietnamese foods recognition  with YOLOv8n-cls finetuned on Vietnamese Foods dataset (kaggle).
+Vietnamese foods recognition  with YOLOv8n-cls finetuned on Vietnamese Foods dataset (kaggle), includes Grad-CAM explainability and Gradio demo app.
 
 This project use Deep Learning to classify and recognize food images, support related apps, webs deploy auto recommendation about diet, portion, dishes or study computer vision.
 
@@ -10,7 +10,12 @@ Base model: YOLOv8n-cls (Ultralytics)
 Input size: 224x224
 Dataset: [!30VN food](https://www.kaggle.com/datasets/quandang/vietnamese-foods)
 Classes: 30 Vietnamese dishes
-
+### Results
+| Metric | Score |
+|--------|--------|
+| Top-1 Accuracy | 87.5% |
+| Top-5 Accuracy | 96.3% |
+| F1-score | 0.85 |
 
 # Installation
 ```
