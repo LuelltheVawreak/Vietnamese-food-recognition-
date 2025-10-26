@@ -1,0 +1,11 @@
+ultralytics>=8.0.100
+torch
+torchvision
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+scikit-learn
+gradio
+grad-cam
