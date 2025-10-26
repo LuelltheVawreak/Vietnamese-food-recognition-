@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 def eda_show(dataset_dir='dataset_raw/Images'):
-    """Quick dataset summary: class count and example images"""
-    print("=== EDA: Dataset quick summary ===")
+    #Quick dataset summary: class count and example images
     for split in ['Train', 'Validate']:
         directory = os.path.join(dataset_dir, split)
         if not os.path.exists(directory):
